@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://ca-times.brightspotcdn.com/dims4/default/3fdf0ec/2147483647/strip/true/crop/2045x1150+0+0/resize/840x472!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F49%2F2a%2Fb869ce6c4488edee8556396ec6e9%2Fla-1554939303-nqauifl1ot-snap-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: serif;
+    background-position: center;
+}
+
+#sss{
+    padding-left: 30px;
+    font-size: 50px;
+    color:#f39d1a;
+    line-height: 60px;
+    font-family:cursive;
+    
+}
+
+#ss{
+    font-size: 20px;
+    color:white;
+    line-height: 50px;
+    font-family:cursive;
+    }
+.div{
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+}
+
+.div1{
+    position:relative;
+    max-width: 1200px;
+    padding: 30px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    
+}
+
+.div1:hover{
+    background-color: #b4b4b4;
+    transition: 0.5s all;
+    
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #8309;
+    line-height: 70px;
+}
+
+nav ul{
+    
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+}
+
+nav ul li:hover{
+    background-color: #f39d1a;
+    transition: 0.5s all;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+
+#desc{
+    background-image: url(https://image.freepik.com/free-photo/opened-books-table-with-copy-space_23-2148448114.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+    
+}
+.block{
+    align-items: center;
+    padding:50px 50px 50px 50px;
+}
+
+.download{
+    padding-top: 50px;
+}
+
+#down{
+    display: block;
+    background: #00A9D4;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration-color: none;
+    width: 280px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#down:hover
+{
+    background-color: #8A2BE2;
+    transition: 0.5s all;
+}

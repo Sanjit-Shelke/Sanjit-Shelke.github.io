@@ -1,0 +1,162 @@
+body{
+    font-size:15px;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+    padding:0;
+    background-size:cover;
+    background-position:center;
+    font-family:sans-serif;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+header{
+    background:black;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:blue 3px solid;
+}
+header a{
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px bold;
+}
+
+header li{
+    float:left;
+    padding:0 20px;
+    display:inline-end;
+}
+header #branding{
+    float:left;
+}
+header #branding h1{
+    margin:0;
+}
+#branding h1{
+    color:white;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+header .current a{
+    color:white;
+    font-weight:bold;
+}
+header .highlight{
+    color:gold;
+    font-weight:bold;
+    font-size: 40px;
+    font-family: cursive;
+}
+header a:hover{
+    color:blue;
+    font-weight:bold;
+}
+#newsletter{
+    min-height:477px;
+    background-image:url("https://wab.org/wp-content/uploads/2017/10/fiction.jpg");
+    text-align:center;
+    color:black;
+    
+}
+#boxes{
+    margin-top:20px;
+    background-color: blue;
+}
+#boxes .box{
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+    color:white;
+}
+
+#boxes .boxs{
+    float:right;
+    text-align:center;
+    width:30%;
+    padding:10px;
+    color:white;
+}
+
+#boxes .boxs img{
+    width:50%;
+}
+.loginbox{
+    width:400px;
+    height:480px;
+    background:black;
+    color:white;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing : border-box;
+    padding: 40px 30px;
+}
+h1{
+    margin:0;
+    padding: 0 0 20px;
+    text-align:center;
+    font-size:22px;
+}
+
+.loginbox input{
+    width:80%;
+    margin-bottom:20px;
+}
+.loginbox input[type = "text"],input[type = "password"],input[type = "email"]
+{
+    border:none;
+    border-bottom:1px solid blue;
+    background:transparent;
+    outline:none;
+    height:40px;
+    color:white;
+    font-size:16px;
+    font-family:sans-serif;
+}
+.loginbox button[type = "submit"]
+{
+    width:300px;
+    border:none;
+    outline:none;
+    height:40px;
+    background:blue;
+    color:white;
+    font-size:18px;
+    border-radius:20px;
+}
+.loginbox textarea{
+    width:300px;
+    border:none;
+    border-bottom:1px solid blue;
+    background:transparent;
+    outline:none;
+    height:40px;
+    color:white;
+    font-size:16px;
+
+}
+
+.loginbox form{
+    padding:-20px 0px 20px 0px;
+}
+
+
+
+
+
+

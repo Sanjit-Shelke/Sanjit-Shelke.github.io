@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="Registration.css">
+<title>Registration Form</title>
+</head>
+<body>
+        <header>
+          
+            <div class = "container">
+            <div id="branding">
+              <h1><span class = "highlight"><b>S</b><sup><b>3</b></sup></span> Book Store</h1>    
+            </div>
+                <nav>
+                    <ul>
+                        <li class = "current"><a href="contact_us.html">contact</a></li>
+                        
+                         <li class = "current"><a href="about.html">about</a></li>
+                        
+                        <li class = "current"><a href="FrontPage.html">Sign IN</a></li>
+                    </ul>
+                </nav>            
+            </div>
+        </header>
+            <div class = "loginbox">
+    <h1 align = "center">Sign Up / Register Here</h1>
+
+    <div class="container">
+	<label for="fname"><b>First Name</b></label><br>
+    <input type="text" placeholder="Enter Firstname" name="fname" required><br>
+	
+	<label for="lname"><b>Last Name</b></label><br>
+    <input type="text" placeholder="Enter Lastname" name="lname" required><br>
+	
+	<label for="uname"><b>Username</b></label><br>
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
+	
+	<label for="email"><b>E-mail ID</b></label><br>
+    <input type="text" placeholder="Enter E-mail id" name="E-mail id" required><br>
+	
+	<label for="gender"><b>Gender</b></label>
+     <input type = "radio" id = "male" name = "gender" value = "male"><lable for = "male">Male</lable>
+     <input type = "radio" id = "female" name = "gender" value = "female"><lable for = "female">Female</lable><br>
+	 
+	 <br><label for="psw"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <label for="psw-repeat"><b>Confirm Password</b></label><br>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+	
+	 <label for="address"><b>Address</b></label><br>
+        <textarea col = "50" rows = "5"></textarea><br>
+        
+        <label for="QuestionToBeAsked"><b>Questions to ask,if you forgot password?</b></label><br>
+        <select name = "dropdown menu">
+                    <option value = "Pet">what is your pet name?</option>
+                    <option value="nick">what is your nick name?</option>
+                    <option value="place">what is your favourite place to visit?</option>
+                    <option value="incident">what is your memoriable incident of life?</option>    
+        </select><br>
+        <label for="answer">Answer</label><br>
+        <textarea name="answer" id="ans" cols="20" rows="5"></textarea><br>
+     <button type="submit" class="signupbtn"><a id="text" href="FrontPage.html"> Sign Up </a></button>
+        <button type="button" class="cancelbtn">Cancel</button>
+    </div>
+      </div>
+</body>
+</html>
